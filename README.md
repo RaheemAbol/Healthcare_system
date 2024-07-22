@@ -8,7 +8,7 @@
 
 
 
-1. **Ticket 1: Create `Patient` Class**
+ **Ticket 1: Create `Patient` Class**
    - **Description:** Implement a `Patient` class with the following attributes and methods:
      - **Attributes:**
        - `patientID` (int)
@@ -29,7 +29,7 @@
      - Implement `addMedicalRecord`, `updateMedicalRecord`, and `getMedicalRecord` methods.
      - Ensure the class adheres to Java coding standards.
 
-2. **Ticket 2: Create `Inpatient` Class Extending `Patient`**
+ **Ticket 2: Create `Inpatient` Class Extending `Patient`**
    - **Description:** Implement an `Inpatient` class that extends `Patient` with additional attributes and methods:
      - **Attributes:**
        - `admissionDate` (String)
@@ -47,9 +47,9 @@
      - Override the `toString` method.
      - Ensure the class adheres to Java coding standards.
 
-#### **Developer 2:**
 
-3. **Ticket 3: Create `Outpatient` Class Extending `Patient`**
+
+ **Ticket 3: Create `Outpatient` Class Extending `Patient`**
    - **Description:** Implement an `Outpatient` class that extends `Patient` with additional attributes and methods:
      - **Attributes:**
        - `appointmentDate` (String)
@@ -67,7 +67,7 @@
      - Override the `toString` method.
      - Ensure the class adheres to Java coding standards.
 
-4. **Ticket 4: Create `MedicalRecord` Class**
+ **Ticket 4: Create `MedicalRecord` Class**
    - **Description:** Implement a `MedicalRecord` class with the following attributes and methods:
      - **Attributes:**
        - `date` (String)
@@ -85,9 +85,9 @@
      - Override the `toString` method.
      - Ensure the class adheres to Java coding standards.
 
-#### **Developer 3:**
 
-5. **Ticket 5: Create `Hospital` Class**
+
+ **Ticket 5: Create `Hospital` Class**
    - **Description:** Implement a `Hospital` class with the following attributes and methods:
      - **Attributes:**
        - `patients` (List of `T extends Patient`)
@@ -103,7 +103,7 @@
      - Implement `addPatient` and `getPatient` methods.
      - Ensure the class adheres to Java coding standards.
 
-6. **Ticket 6: Implement `MedRunner` Class**
+ **Ticket 6: Implement `MedRunner` Class**
    - **Description:** Implement a `MedRunner` class with a `main` method to demonstrate the functionality of all the other classes.
    - **Tasks:**
      - Create the `MedRunner` class.
